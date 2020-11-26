@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOM - Document Object Model</title>
+    <!--Conjunto de objetos de dentro do navegador, que dá acesso aos componentes do Web Site-->
+    <!--Árvoré DOM-->
+    <style>
+        body{
+            background-color: black;
+            color: white;
+            font: normal 20pt serif;
+        }
+    </style>
+</head>
+<body>
+    <h1>Introdução ao DOM</h1>
+    <p>Aprendendo a usar o <strong>DOM</strong> no JavaScript</p>
+    <p>Exemplos com DOM</p>
+    <div>iniciando</div>
+    <!--Selecionando Elementos-->
+    <!--Por Marca-->
+    <script>
+        var p1 = window.document.getElementsByTagName('p') [0]
+        window.document.write(p1.innerHTML)
+        p1.style.color = 'blue'
+    </script>
+</body>
+</html>
